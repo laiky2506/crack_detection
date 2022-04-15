@@ -23,13 +23,13 @@ The images are tuned with tensorflow.data.AUTOTUNE() method.
 VGG19 is imported and used for the model to do transfer learning. The images are then augmented using RandomFlip and RandomRotate method from tensorflow.keras.layers before input into the model. The model trained for 10 epochs with a learning rate of 0.001 then fine tune with a learning rate of 0.00001 for another 10 epochs.
 
 #### The Model flow diagram:
-![Model!](/references/model.png "Model")
+![Model!](/reference/model.png "Model")
 
 ### STEP 4: Evaluation of the model
 The accuracy and loss of the model are as following diagram
-![Epoch Accuracy!](/references/epoch_accuracy.png "Epoch Accuracy")
-![Epoch Loss!](/references/epoch_loss.png "Epoch Loss")
+![Epoch Accuracy!](/reference/epoch_accuracy.png "Epoch Accuracy")
+![Epoch Loss!](/reference/epoch_loss.png "Epoch Loss")
 
 ## Result
 #### The actual value of test data vs prediction value:
-![Actual vs Prediction!](/references/actual_vs_prediction.png "Actual vs Prediction")
+![Actual vs Prediction!](/reference/actual_vs_prediction.png "Actual vs Prediction")
